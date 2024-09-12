@@ -1,9 +1,9 @@
 site:
   name: BeyondBrain
-  site: 'https://wilson88888888.github.io'
-  base: '/netstation/'
-  #site: 'https://www.beyondbrain.com.cn'
-  #base: '/'
+  #site: 'https://wilson88888888.github.io'
+  #base: '/netstation/'
+  site: 'https://www.beyondbrain.com.cn'
+  base: '/'
   trailingSlash: false
 
   googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
