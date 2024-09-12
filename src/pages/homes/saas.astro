@@ -8,6 +8,9 @@ import Steps2 from '~/components/widgets/Steps2.astro';
 import Content from '~/components/widgets/Content.astro';
 import Pricing from '~/components/widgets/Pricing.astro';
 
+//import PaypalButton from '~/components/widgets/Paypal.jsx';
+import PayPalSubscriptionButton from '~/components/widgets/PaypalSub.jsx';
+
 import { headerData } from '~/navigation';
 import FAQs from '~/components/widgets/FAQs.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
@@ -38,6 +41,8 @@ const metadata = {
   </Fragment>
 
   <!-- Hero2 Widget ******************* -->
+
+
 
   <Hero2
     tagline="SaaS Web Demo"
@@ -346,4 +351,13 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </BlogLatestPosts>
+
+
+  <!-- 使用 client:load 来确保组件在客户端渲染 -->
+  <!--<PaypalButton client:load />-->
+
+  <!-- 在 Astro 页面中调用 React 组件 -->
+  <PayPalSubscriptionButton client:load />
+
+
 </Layout>

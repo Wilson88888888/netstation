@@ -1,7 +1,9 @@
 site:
-  name: 北京高睿嘉讯科技有限公司
-  site: 'https://www.beyondbrain.com.cn'
-  base: '/'
+  name: BeyondBrain
+  site: 'https://wilson88888888.github.io'
+  base: '/netstation/'
+  #site: 'https://www.beyondbrain.com.cn'
+  #base: '/'
   trailingSlash: false
 
   googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M

@@ -11,6 +11,8 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "astro preview",
     "astro": "astro",
     "check": "npm run check:astro && npm run check:eslint && npm run check:prettier",
@@ -22,16 +24,20 @@
     "fix:prettier": "prettier -w ."
   },
   "dependencies": {
+    "@astrojs/react": "^3.6.2",
     "@astrojs/rss": "^4.0.7",
     "@astrojs/sitemap": "^3.1.6",
     "@astrolib/analytics": "^0.5.0",
     "@astrolib/seo": "^1.0.0-beta.5",
     "@fontsource-variable/inter": "^5.0.20",
+    "@paypal/react-paypal-js": "^8.6.0",
     "astro": "^4.15.1",
     "astro-embed": "^0.7.2",
     "astro-icon": "^1.1.1",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "unpic": "^3.18.0"
   },
   "devDependencies": {
@@ -53,6 +59,7 @@
     "astro-eslint-parser": "^1.0.2",
     "eslint": "^9.9.1",
     "eslint-plugin-astro": "^1.2.3",
+    "gh-pages": "^6.1.1",
     "globals": "^15.9.0",
     "js-yaml": "^4.1.0",
     "mdast-util-to-string": "^4.0.0",

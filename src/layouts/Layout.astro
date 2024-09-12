@@ -12,6 +12,7 @@ import SiteVerification from '~/components/common/SiteVerification.astro';
 import Analytics from '~/components/common/Analytics.astro';
 import BasicScripts from '~/components/common/BasicScripts.astro';
 
+
 // Comment the line below to disable View Transitions
 import { ViewTransitions } from 'astro:transitions';
 
@@ -23,6 +24,8 @@ export interface Props {
 
 const { metadata = {} } = Astro.props;
 const { language, textDirection } = I18N;
+
+
 ---
 
 <!doctype html>
@@ -38,6 +41,26 @@ const { language, textDirection } = I18N;
 
     <!-- Comment the line below to disable View Transitions -->
     <ViewTransitions fallback="swap" />
+    
+
+    <!--<script src="https://www.paypal.com/sdk/js?client-id=AW8w-HMsHWRuOsB5I3uJSnc2ttC3b_W9yn5XHbOzXaa8_GnoEa0CP31yS0C-eU7g-7Es0l8Bp_OanXwZ"></script>--> <!--sandbox-->
+    <!--<script src="https://www.paypal.com/sdk/js?client-id=AZ34Ql31hxHWuvwOMq6QjJeRXSbe6yoOTwYF82acV6CcZPzj76-C-5MPMZNEwZZ-Yt-id1WlzASDIBnW&currency=USD&intent=capture&disable-funding=card&components=buttons"></script>--> <!--live -->
+    <style>
+      /* 仅对 Paypal 按钮的容器进行样式设置 */
+      .paypal-container {
+        display: flex;
+        justify-content: center; /* 水平居中 */
+        align-items: center; /* 垂直居中 */
+        width: 100%; /* 宽度占满父容器 */
+        height: 300px; /* 设定一个合理高度，避免撑满整个页面 */
+        margin: 0 auto; /* 居中对齐，避免干扰其他元素 */
+      }
+
+      #paypal-button-container {
+        width: auto;
+      }
+    </style>
+
   </head>
 
   <body class="antialiased text-default bg-page tracking-tight">
@@ -50,5 +73,6 @@ const { language, textDirection } = I18N;
         content-visibility: auto;
       }
     </style>
+
   </body>
 </html>

@@ -15,6 +15,12 @@ import astrowind from './vendor/integration';
 
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin, lazyImagesRehypePlugin } from './src/utils/frontmatter';
 
+import react from '@astrojs/react'; // 导入 React 集成插件
+
+
+
+
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const hasExternalScripts = false;
@@ -22,12 +28,14 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
+  //base: '/netstation-pulish/',
   output: 'static',
 
   integrations: [
     tailwind({
       applyBaseStyles: false,
     }),
+    react(),
     sitemap(),
     mdx(),
     icon({
