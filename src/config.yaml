@@ -1,7 +1,7 @@
 site:
   name: BeyondBrain
   site: 'https://wilson88888888.github.io'
-  base: '/netstation/'
+  base: '/netstation/tree/main/'
   #site: 'https://www.beyondbrain.com.cn'
   #base: '/'
   trailingSlash: false
