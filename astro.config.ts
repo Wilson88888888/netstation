@@ -28,7 +28,9 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  base: '/netstation/tree/main/',
+  site: 'https://github.com/Wilson88888888/netstation/',
+  base: '/netstation/',
+  outDir: './docs',
   output: 'static',
 
   integrations: [
