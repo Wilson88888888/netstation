@@ -29,7 +29,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   site: 'https://github.com/Wilson88888888/',
-  base: '/netstation/',
+  base: '/netstation/blob/main/docs/',
   outDir: 'docs',
   output: 'static',
 
