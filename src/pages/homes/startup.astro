@@ -11,7 +11,6 @@ import Features3 from '~/components/widgets/Features3.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Brands from '~/components/widgets/Brands.astro';
 
-import PaypalButton from '~/components/widgets/Paypal.jsx';
 
 import { YouTube } from 'astro-embed';
 
@@ -299,8 +298,7 @@ const metadata = {
     ]}
   />
 
-    <!-- 使用 client:load 来确保组件在客户端渲染 -->
-    <PaypalButton client:load />
+
 
   <!-- CallToAction Widget *********** -->
 
