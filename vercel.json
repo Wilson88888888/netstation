@@ -11,5 +11,11 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/netstation/(.*)", // 匹配以 /netstation/ 开头的所有路径
+      "destination": "/$1"          // 重写为根目录下的路径
+    }
   ]
 }
