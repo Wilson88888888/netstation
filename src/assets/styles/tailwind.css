@@ -67,7 +67,7 @@
   flex-wrap: nowrap !important;      /* 禁止换行 */
 }
 
-#header.expanded nav ul li {
+#header.expanded nav ul li button {
   white-space: nowrap !important;    /* 禁止换行 */
   padding: 0 15px !important;        /* 设置适当的内边距 */
   font-size: 16px !important;        /* 调整字体大小 */
