@@ -3,7 +3,7 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Services',
+      text: '服务',
       links: [
         {
           text: 'SaaS',
@@ -24,7 +24,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Cases',
+      text: '案例',
       links: [
         {
           text: 'Features (Anchor Link)',
@@ -57,7 +57,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Contact us',
+      text: '联系我们',
       links: [
         {
           text: 'Lead Generation',
@@ -86,7 +86,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'About us',
+      text: '关于',
       links: [
         {
           text: 'Blog List',
@@ -111,7 +111,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Free trial',
+      text: '试用',
       href: '#',
     },
   ],
