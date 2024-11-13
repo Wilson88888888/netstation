@@ -135,7 +135,7 @@ export const footerData = {
         { text: 'Security', href: '#' },
         { text: 'Team', href: '#' },
         { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
+        /*{ text: 'Customer stories', href: '#' },*/
         { text: 'Pricing', href: '#' },
         { text: 'Resources', href: '#' },
       ],
@@ -145,9 +145,9 @@ export const footerData = {
       links: [
         { text: 'Developer API', href: '#' },
         { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
+        /*{ text: 'Atom', href: '#' },
         { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        { text: 'AstroWind Desktop', href: '#' },*/
       ],
     },
     {
@@ -165,9 +165,9 @@ export const footerData = {
       links: [
         { text: 'About', href: '#' },
         { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
+        /*{ text: 'Careers', href: '#' },
         { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
+        { text: 'Inclusion', href: '#' },*/
         { text: 'Social Impact', href: '#' },
         { text: 'Shop', href: '#' },
       ],
