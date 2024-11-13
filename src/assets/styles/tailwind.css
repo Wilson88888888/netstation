@@ -62,18 +62,18 @@
 }
 
 #header.expanded nav ul {
-  display: flex;          /* 使用 flex 布局 */
-  gap: 10px;              /* 设置菜单项之间的间距 */
-  flex-wrap: nowrap;      /* 禁止换行 */
+  display: flex !important;          /* 使用 flex 布局 */
+  gap: 10px !important;              /* 设置菜单项之间的间距 */
+  flex-wrap: nowrap !important;      /* 禁止换行 */
 }
 
 #header.expanded nav ul li {
-  white-space: nowrap;    /* 禁止换行 */
-  padding: 0 15px;        /* 设置适当的内边距 */
-  font-size: 16px;        /* 调整字体大小 */
-  min-width: 80px;        /* 设置最小宽度 */
-  overflow: hidden;       /* 隐藏溢出的文本 */
-  text-overflow: ellipsis; /* 使用省略号表示溢出的文本 */
+  white-space: nowrap !important;    /* 禁止换行 */
+  padding: 0 15px !important;        /* 设置适当的内边距 */
+  font-size: 16px !important;        /* 调整字体大小 */
+  min-width: 80px !important;        /* 设置最小宽度 */
+  overflow: hidden !important;       /* 隐藏溢出的文本 */
+  text-overflow: ellipsis !important; /* 使用省略号表示溢出的文本 */
 }
 
 
