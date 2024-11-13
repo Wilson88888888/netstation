@@ -61,6 +61,18 @@
   writing-mode: horizontal-tb; /* 强制文本水平显示 */
 }
 
+#header.expanded nav ul li {
+  white-space: nowrap;  /* 禁止换行 */
+  min-width: 80px;  /* 设置最小宽度，确保菜单项能够容纳更多字 */
+  width: auto;  /* 根据内容自适应宽度 */
+  font-size: 14px;  /* 调整字体大小以容纳更多文字 */
+  padding-left: 10px;
+  padding-right: 10px;  /* 减少左右内边距以节省空间 */
+  overflow: hidden;       /* 隐藏溢出的文本 */
+  text-overflow: ellipsis; /* 使用省略号表示溢出的文本 */
+}
+
+
 .dropdown:focus .dropdown-menu,
 .dropdown:focus-within .dropdown-menu,
 .dropdown:hover .dropdown-menu {
