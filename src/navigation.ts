@@ -27,7 +27,7 @@ export const headerData = {
       text: '案例',
       links: [
         {
-          text: '项目应用及案例 (Anchor Link)',
+          text: '项目应用及案例',
           href: getPermalink('/#features'),
         },
         /*{
