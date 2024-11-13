@@ -17,20 +17,20 @@ export const headerData = {
           text: 'Mobile App',
           href: getPermalink('/homes/mobile-app'),
         },
-        {
+        /*{
           text: 'Personal',
           href: getPermalink('/homes/personal'),
-        },
+        },*/
       ],
     },
     {
       text: '案例',
       links: [
         {
-          text: 'Features (Anchor Link)',
+          text: '项目应用及案例 (Anchor Link)',
           href: getPermalink('/#features'),
         },
-        {
+        /*{
           text: 'Services',
           href: getPermalink('/services'),
         },
@@ -53,13 +53,21 @@ export const headerData = {
         {
           text: 'Privacy policy',
           href: getPermalink('/privacy'),
-        },
+        },*/
       ],
     },
     {
       text: '联系我们',
       links: [
         {
+          text: '联系方式',
+          href: getPermalink('/contact'),
+        },
+        {
+          text: '关于我们',
+          href: getPermalink('/about'),
+        },
+        /*{
           text: 'Lead Generation',
           href: getPermalink('/landing/lead-generation'),
         },
@@ -82,17 +90,17 @@ export const headerData = {
         {
           text: 'Subscription',
           href: getPermalink('/landing/subscription'),
-        },
+        },*/
       ],
     },
     {
-      text: '免费试用',
+      text: '更多资讯',
       links: [
         {
           text: 'Blog List',
           href: getBlogPermalink(),
         },
-        {
+        /*{
           text: 'Article',
           href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
         },
@@ -107,7 +115,7 @@ export const headerData = {
         {
           text: 'Tag Page',
           href: getPermalink('astro', 'tag'),
-        },
+        },*/
       ],
     },
     /*{
@@ -174,10 +182,10 @@ export const footerData = {
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://www.beyondbrain.com.cn' },
   ],
   footNote: `
     <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="https://onwidget.com/favicon/favicon-32x32.png" alt="onWidget logo" loading="lazy"></img>
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://www.beyondbrain.com.cn"> BeyondBrain</a> · All rights reserved.
   `,
 };
