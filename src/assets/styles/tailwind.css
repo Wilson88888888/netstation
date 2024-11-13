@@ -61,11 +61,7 @@
   writing-mode: horizontal-tb; /* 强制文本水平显示 */
 }
 
-#header nav ul {
-  display: flex !important;          /* 使用 flex 布局 */
-  gap: 10px !important;              /* 设置菜单项之间的间距 */
-  flex-wrap: nowrap !important;      /* 禁止换行 */
-}
+
 
 #header nav ul li button {
   white-space: nowrap !important;    /* 禁止换行 */
