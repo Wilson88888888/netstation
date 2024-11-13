@@ -86,7 +86,7 @@ export const headerData = {
       ],
     },
     {
-      text: '关于',
+      text: '免费试用',
       links: [
         {
           text: 'Blog List',
@@ -110,10 +110,10 @@ export const headerData = {
         },
       ],
     },
-    {
+    /*{
       text: '试用',
       href: '#',
-    },
+    },*/
   ],
   actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
