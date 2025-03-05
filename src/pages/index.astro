@@ -28,12 +28,36 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: '下载',
-        href: 'https://www.beyondbrain.com.cn',
+        text: '微信扫描二维码体验',
+        href: 'https://www.beyondbrain.com.cn/static/QRCode.jpeg',
         target: '_blank',
         icon: 'tabler:download',
       },
-      { text: '了解更多', href: '#features' },
+      // { text: '了解更多', href: '#features' },
+      // {
+      //   text: '进入小程序',
+      //   onClick: () => {
+      //     const qrPopup = document.createElement('div');
+      //     qrPopup.style.position = 'fixed';
+      //     qrPopup.style.top = '0';
+      //     qrPopup.style.left = '0';
+      //     qrPopup.style.width = '100vw';
+      //     qrPopup.style.height = '100vh';
+      //     qrPopup.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+      //     qrPopup.style.display = 'flex';
+      //     qrPopup.style.alignItems = 'center';
+      //     qrPopup.style.justifyContent = 'center';
+      //     qrPopup.style.zIndex = '1000';
+      //     qrPopup.innerHTML = `
+      //       <div style="position: relative; background: white; padding: 20px; border-radius: 8px;">
+      //         <img src="https://www.beyondbrain.com.cn/static/小程序二维码.jpg" alt="扫码进入小程序" style="width: 200px; height: 200px;" />
+      //         <button style="position: absolute; top: 10px; right: 10px; background: none; border: none; font-size: 24px; cursor: pointer;">✖</button>
+      //       </div>
+      //     `;
+      //     qrPopup.querySelector('button').onclick = () => document.body.removeChild(qrPopup);
+      //     document.body.appendChild(qrPopup);
+      //   },
+      //},
     ]}
     image={{ src: '~/assets/images/hero-image.png', alt: 'BeyondBrain Hero Image' }}
   >
@@ -106,6 +130,7 @@ const metadata = {
   <!-- Content Widget **************** -->
 
   <Content
+    id="features"
     isReversed
     tagline="BeyondBrain's Services && Solutions"
     title="公司服务 && 解决方案"
@@ -324,12 +349,12 @@ const metadata = {
 
   <!-- HighlightedPosts Widget ******* -->
 
-  <BlogLatestPosts
+  <!-- <BlogLatestPosts
     title="获取更多资讯Blog"
     information={`The blog is used to display BeyondBrain documentation.
                         Each new article will be an important information.
                 `}
-  />
+  /> -->
 
   <!-- FAQs Widget ******************* -->
 
